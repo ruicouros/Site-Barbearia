@@ -25,7 +25,8 @@ nav a:hover {
     margin: 0 auto ;
 }
 .titulosite {
-    text-align: center ; 
+    text-align: center ;
+    font-size: 36px; 
 }
 .produtos li {
     display: inline-block;
@@ -33,7 +34,7 @@ nav a:hover {
     width: 27%;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px 20px;
+    padding: auto;
     box-sizing: border-box;
     border-color: black ;
     border-width: 2px ;
@@ -127,4 +128,39 @@ thead{
 td, th{
     border: 1px solid black;
     padding: 8px 15px ;
+}
+
+.caixa3 {
+    position: relative;
+    width: 940px;
+    height: 600px;
+    margin: 0 auto;
+
+}
+.caixa4{
+    text-align: end;
+    vertical-align:top;
+    list-style: none;
+    width: 188px;
+    position: relative;
+    left: 756px;
+  
+}
+.lista-beneficios{
+    display: inline;
+    text-align: center ;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.lista-beneficios li{
+    margin: 10px;
+    
+  
+
+
+}
+.titulo-lista{
+    margin: 0 0 0 0;
+    text-align: center;
 }
